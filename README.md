@@ -12,20 +12,16 @@ The challenge was:
 This is a course related project and part of the problemset in Harvards CS50x week 5.
 
 ## Files
-**speller.c**
-Speller.c contains the code that measures the time it takes to read the dictionary into memory and prints misspelled words.
+**speller.c** contains the code that measures the time it takes to read the dictionary into memory and prints misspelled words.
 
-**dictionary.c**
-Dictionary.c contains the code that reads the dictionary into memory, a hashfunction that hashes each word from the dictionary, a size function that counts howmany words the dictionary contains, a check function that checks if a word is contained in the dictionary and an unload function that frees dynamically allocated heap memory. The hashfunction is simple and not taken from any online source but self-made.
+**dictionary.c** contains the code that reads the dictionary into memory, a hashfunction that hashes each word from the dictionary, a size function that counts howmany words the dictionary contains, a check function that checks if a word is contained in the dictionary and an unload function that frees dynamically allocated heap memory. The hashfunction is simple and not taken from any online source but self-made.
 
 **keys**
 The keys folder contains a number of misspelled words to test the progeram.
 
-**texts**
-Texts folder contains a number of texts that can be spell-checked by the program
+**texts** folder contains a number of texts that can be spell-checked by the program
 
-**dictionaries**
-Dictionaries contains a small and a large dictionary, the small's purpose was initialy to test the basic functionality without needing to iterate over 143000 words of the large dictionary.
+**dictionaries** contains a small and a large dictionary, the small's purpose was initialy to test the basic functionality without needing to iterate over 143000 words of the large dictionary.
 
 ## How to run
 To run this program, a C compiler must be installed. The best way is to run it is to use a Linux enviroment like WSL for windows (if not using Linux) and to run (after compiling): 
