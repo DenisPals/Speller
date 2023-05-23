@@ -29,7 +29,6 @@ folder contains a small and a large dictionary, the small's purpose was initialy
 
 ## How to run
 To run this program, a C compiler must be installed. The best way is to run it is to use a Linux enviroment like WSL for windows (if not using Linux) and to run (after compiling): 
-Grayscale:
 > ./speller texts/YOURTEXT.txt
 
 This will automatically use the large dictionary and output the wrong words from your text.
